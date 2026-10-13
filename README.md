@@ -44,7 +44,7 @@ Processes raw data, calculates average fuel consumption (km/l), and generates co
 📊 Control Methodology (PMP)
 The global optimization problem is transformed into an instantaneous minimization of the Hamiltonian function:
 
- H(SOC(t),u(t),λ(t),t)= m_f (u(t),t)+ (λ(t)+ w(SOC))⋅P_ec (u(t),t)
+ H(SOC(t),u(t),λ(t),t) = m_f(u(t),t) + (λ(t)+ w(SOC)) ⋅ P_ec (u(t),t)
 
 The co-state (λ) acts as the dynamic price of electric energy and is calibrated via a bisection (shooting method) algorithm to converge precisely onto the target final charge state.
 
