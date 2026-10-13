@@ -51,6 +51,7 @@ The co-state (λ) acts as the dynamic price of electric energy and is calibrated
 📈 Main Results
 
 System performance was validated over a mixed WLTC (Class 1+2+3a) driving cycle:
+
 Charge Sustaining (CS) Mode
 Objective: Maintain a constant battery state of charge (SOC_init ≈ SOC_final = 60% )
 Fuel Savings: 30.2% compared to a purely thermal propulsion system.
